@@ -19,10 +19,10 @@ const MovieItem = ({ movie }) => {
   return (
     <>
       <ListItem>
-        <MovieImage source={{ uri: movie.image }} />
+        {/* <MovieImage source={{ uri: movie.image }} /> */}
         <MovieItemStyled>
           {" "}
-          {movie.name}, {movie.year}{" "}
+          {movie.id}, {movie.strain}{" "}
         </MovieItemStyled>
       </ListItem>
     </>

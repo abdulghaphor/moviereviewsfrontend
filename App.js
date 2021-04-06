@@ -54,7 +54,7 @@ export default function App() {
     <View style={styles.container}>
       <ThemeProvider theme={theme.dark}>
         <Home />
-        <MovieList movies={movieStore.movies} />
+        <MovieList />
         {/* <MovieList movies={moviesTestArray} /> */}
         <Text> App.js: list rendered above</Text>
       </ThemeProvider>
